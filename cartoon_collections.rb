@@ -7,9 +7,11 @@ def roll_call_dwarves(dwarves)
   end
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
-#end
+def summon_captain_planet(calls)
+    new_calls = calls.capatilize!
+    new_calls.collect do |call|
+    puts new_calls
+end
 
 #def long_planeteer_calls# code an argument here
   # Your code here
