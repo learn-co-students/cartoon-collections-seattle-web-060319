@@ -1,4 +1,3 @@
-
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 
 def roll_call_dwarves(dwarves)
@@ -20,7 +19,9 @@ def long_planeteer_calls(calls)
   end
 end
 
-def find_the_cheese(array, element)
-  array.each do |element|
-  array.include?(element)
+def find_the_cheese(array)
+  cheeses = ["cheddar", "gouda","camembert"]
+  array.find do |thing|
+  cheeses.include?(thing)
+  end
 end
